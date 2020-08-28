@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=">
-        <title>New Tech Girl</title>
-    <link rel="stylesheet" type="text/css" href="../styles.css">
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <title>New Tech Girl</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>New Tech Girl</h1>
-        <nav>
+      <h1>New Tech Girl</h1>
+      <nav>
         <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=AboutMeBlog.html>About Me/Blog</a></li>
-            <li><a href=Portfolio.html>Portfolio</a></li>
-            <li><a href=ContactMe.html>Contact Me</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutMeBlog.html">About Me/Blog</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li><a href="ContactMe.html">Contact Me</a></li>
         </ul>
-        </nav>
+      </nav>
     </header>
     <section>
-        <h2>Contact Me</h2>
-        <p>I am a Houston based full-stack developer focused on writing clean and efficient code.
-        </P>
-        <button>View my work</button>
+      <h2>Contact Me</h2>
+      <form action="#" method="GET">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" />
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="comment">Comment</label>
+        <input type="textarea" name="user" id="comment" />
+
+        <input type="submit" value="Submit" />
+      </form>
     </section>
     <footer>This is a footer</footer>
-</body>
+  </body>
 </html>
