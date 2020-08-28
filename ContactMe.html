@@ -18,20 +18,15 @@
         </ul>
       </nav>
     </header>
-    <section>
+    <section class="contact-section"
       <h2>Contact Me</h2>
       <form action="#" method="GET">
-        <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" />
+        First Name: <input type="text" name="firstname" required="required" placeholder="Enter your first name" />
+        Last Name: <input type="text" name="lastname" placeholder="Enter your first name" />
+        Email: <input type="email" name="emailaddress" required="required" placeholder="Enter your email address"/>
+        Comment: <textarea rows="10" cols="30" placeholder="Enter brief description here"> 
+          </textarea>
 
-        <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
-
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-
-        <label for="comment">Comment</label>
-        <input type="textarea" name="user" id="comment" />
 
         <input type="submit" value="Submit" />
       </form>
