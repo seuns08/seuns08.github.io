@@ -1,44 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("images/laptop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #222222;
+}
+
 body {
-  font-family: Courier New, Helvetica Neue, sans-serif;
-  background: #d9ae94;
+  font-family: "Abel", sans-serif;
   margin: 0px;
   min-width: 560px;
   padding: 0px;
 }
 
 header {
-  background: #f5cac3;
   height: 100px;
   padding: 40px;
-  display: flex;
-  flex-wrap: wrap;
+}
+
+h1 {
+  margin-left: 20px;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 header a {
-  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 nav li {
   display: inline-block;
-  text-align: right;
+  font-size: 20px;
+  text-align: center;
 }
 
 section {
-  background-image: url("images/texture.jpeg");
-  background-size: cover;
-  background: #b5838d;
   margin: 0px;
-  padding: 40px;
+  margin-left: -475px;
+  margin-top: 40px;
+  padding: 100px;
   text-align: center;
   display: inline-block;
   width: 100%;
+  position: relative;
+}
+
+section p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+section h2 {
+  font-size: 40px;
 }
 
 .contact-section {
   font-weight: bold;
   text-align: left;
+  position: relative;
 }
 
 .contact-section input {
@@ -62,6 +88,7 @@ li {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
 
@@ -71,12 +98,33 @@ a:hover {
 
 button {
   border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #555555;
+  padding: 26px 28px;
+  outline: none;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+}
+
+.button: hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 footer {
-  background: #6d6875;
+  background-color: #222222;
+  height: 50px;
   margin: 0px;
-  padding: 30px;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
   text-align: center;
-  height: 100px;
+  width: 100%;
 }
